@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  background: linear-gradient(400deg, #0f333f, #20072f, #ef8172);
+  background-size: 100% 180%;
+  animation: gradient-animation 18s ease infinite;
+ 
+}
+
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: "", cursive;
+  text-shadow: 10px 0 black;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.s {
+background-image: url("images/tom1.png");
+}
+
+.e {
+ 
+  background-image: url("images/tom2.png");
+}
+
+.h {
+background-image: url("images/tom3.png");
+}
+
+.a {
+background-image: url("images/tom4.png");
+}
+
+.j {
+background-image: url("images/snare.png");
+}
+
+.D {
+background-image: url("images/crash.png");
+}
+
+.J {
+background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+  
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 white;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+  }
+
+.drum {
+  outline: none;
+  border: 10px solid white;
+
+  font-size: 5rem;
+  font-family: '', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 7px 0 black;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.drum:hover {
+  background-color: white;
+  color: #031926;
+  animation: shaking 0.3s linear 2;
+  
+ 
+  
+  
+}
+@keyframes shaking {
+  0%, 50%, 100% {
+      transform: rotate(0deg);
+  }
+  20% {
+      transform: rotate(-5deg);
+  }
+  70% {
+      transform: rotate(10deg);
+  }
+}
+
